@@ -1,0 +1,15 @@
+# Data
+pandas>=2.2
+numpy>=1.26
+statsbombpy>=1.13
+
+# Plotting
+matplotlib>=3.8
+mplsoccer>=1.4
+
+# Stats and modelling
+scikit-learn>=1.4
+statsmodels>=0.14
+
+# Notebooks
+jupyterlab>=4.0
