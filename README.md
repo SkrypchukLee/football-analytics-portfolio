@@ -31,13 +31,22 @@ Most football analytics describes *what* happened. I'm interested in *why* playe
 
 Each analysis lives in its own folder with a notebook, the charts, and a short write-up. Links to the published blog posts will be added here as they go live.
 
+## Apps
+
+| App | What it does |
+|-----|--------------|
+| [Match Explorer](apps/match_explorer/) | Load any StatsBomb match (open data or your own JSON) and explore team stats, xG race, shots, passes, pass networks, players and raw events. `streamlit run apps/match_explorer/app.py` |
+
 ## Repository structure
 
 ```
 football-analytics-portfolio/
 ├── README.md
 ├── notes/                 # Learning notes (StatsBomb course, glossary of metrics)
+├── apps/
+│   └── match_explorer/    # Streamlit app for exploring one match
 ├── analyses/
+│   ├── 00-first-shot-map/
 │   ├── 01-team-profile/
 │   ├── 02-player-comparison/
 │   ├── 03-scanning-decisions/
@@ -72,7 +81,8 @@ jupyter lab
 - [ ] Hudl StatsBomb *Introduction to Football Analytics* course (Nov 2026)
 - [ ] Friends of Tracking videos on event and tracking data
 - [ ] Glossary of key metrics: xG, xT, PPDA, field tilt, progressive passes, possession value
-- [ ] First plot: WSL shot map with statsbombpy and mplsoccer
+- [x] First plot: [WSL shot map](analyses/00-first-shot-map/) with statsbombpy and mplsoccer
+- [x] [Match Explorer](apps/match_explorer/) app for interrogating a single match
 
 ## Data and ethics
 
