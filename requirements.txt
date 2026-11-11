@@ -11,5 +11,8 @@ mplsoccer>=1.4
 scikit-learn>=1.4
 statsmodels>=0.14
 
+# Apps
+streamlit>=1.50
+
 # Notebooks
 jupyterlab>=4.0
